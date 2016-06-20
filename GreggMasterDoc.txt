@@ -1,0 +1,87 @@
+Amazon Mods
+Weapon 711,718,719
+Monster 3013,3014
+
+Independent Mods
+Weapon 731
+Monster 3042
+
+Race Mods
+Weapon 701,702,703,706,710,712,713,715,716,719,725-728,737,739,740
+Armor 251-254,256
+Monster 3012,3017-3020,3025-3027,3030,3031,3043,3046-3049,3052-3058,3061,3064
+
+Shaman Mods
+Weapon 704,705,720,721
+Monster 3002-3010,3044
+
+Site Mods
+Weapon 710
+Monster 3016,3028,3029,3039,3040,3063
+Site 1501-1523
+
+Spell Mods
+Weapon 707-709,722-724,729,730,732-736,738
+Armor 255,257
+Monster 3021-3024,3032-3038,3041,3045,3050,3051,3059,3060
+
+Thrones
+Site 1600
+
+Greyhawk
+Monster 3001?
+Site 1601-
+
+Changelog
+Removed randoms from sages
+Changed how Throne of Trinkets gives items (bigger first additonal events)
+Throne of Champions should no longer spawn underwater
+
+6/16
+Adding better event based throne support
+Throne of Immigration can now spawn additional people (common event, half as claim event)
+Throne of the Prophet can now spawn high priests (common event)
+
+Added The Relentless Throne
+	d1, reinvigoration 1
+Added The Throne of Armies
+	Production +1
+Added The Throne of Research
+	s1, +1 magic in province
+Added The Wild Throne
+	n2b3, Turmoil
+Added Liquid Throne
+	UW ONLY, a1, def +2
+Added Throne of Chance
+	Luck, Drain, Advenure
+Added Distrusting Throne
+	Drain, Magic Resistance +2
+Added Throne of Rebirth
+	(d1)n1, summon manikin (2)
+Added Pestering Throne
+	Summons 1d3 imps each turn, +1 turmoil in the province
+
+	
+Added Banefire Throne (2)
+	f2d2, starts f1, attack +1
+	
+The Crystal Throne (the modded one) changed to the Amber Spire
+	a1,e1, creates a crystal citadel
+	
+Reduced throne of greed from 300 to 250
+Throne of Treasures now grants 50 gold all of the time
+Throne of the Champion spreads dominion 3
+The Void Throne Produces Water (for the purpose of path balance)
+	The gate it makes is also water
+
+Thone of Stone, amber spire, throne of prophet, and throne of champions can no longer spawn underwater
+
+6/19
+Fixed everygold cost to be autocaulc (for recruitables)
+Set hero gold cost to 0
+Claythix, mictlan hero, has onebattlespell foul vapor
+
+Removed the recruit limit from wardens of avalon
+
+At 35 xp micltan slaves become warriors
+
