@@ -767,7 +767,7 @@ of the night, skilled in the arts of stealth and death."
 #patience 1
 #scalewalls
 #clearweapons
-#weapon 9
+#weapon 126
 #weapon 619
 #gcost 10015
 #end
@@ -1651,7 +1651,7 @@ and their blessed status by the Moon has granted them night vision and increased
 #path 6
 #level 0
 #rarity 5
-#gold 50
+#gold 25
 #end
 
 #newsite 1551
@@ -1659,7 +1659,7 @@ and their blessed status by the Moon has granted them night vision and increased
 #path 6
 #level 3
 #rarity 5
-#gold 100
+#gold 75
 #end
 
 --These events create the sites (only work for middle era right now)

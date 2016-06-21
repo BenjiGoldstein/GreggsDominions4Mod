@@ -114,7 +114,7 @@
 #gems 5 1
 #claim
 #dominion 1
-#gems 7 1
+#gems 6 1
 #summon 313
 #summon 313
 #end
