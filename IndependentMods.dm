@@ -99,6 +99,7 @@ the faith."
 #animalawe 1
 #beastmaster 1
 #gcost 10050
+#okleader
 #end
 
 #selectmonster 125
