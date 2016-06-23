@@ -180,19 +180,6 @@ well as completely new spells."
 #explspr 10006
 #end
 
-#newweapon 738
-#name "Sonic Shriek"
-#dmg 5
-#att 0
-#def 0
-#len 0
-#nostr
-#sound 20
-#armorpiercing
-#dt_stun
-#norepel
-#end
-
 
 
 #selectitem "Staff of Flame Focus"
@@ -822,10 +809,6 @@ they have been summoned there."
 
 #selectmonster 1084
 #trample
-#end
-
-#selectmonster 1357
-#weapon 738
 #end
 
 #selectmonster 1380

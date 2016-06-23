@@ -96,10 +96,10 @@ the faith."
 
 
 #selectmonster 105
-#magicskill 6 2
 #animalawe 1
 #beastmaster 1
 #gcost 10050
+#okleader
 #end
 
 #selectmonster 125
