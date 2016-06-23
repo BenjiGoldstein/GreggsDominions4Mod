@@ -1666,7 +1666,7 @@ and their blessed status by the Moon has granted them night vision and increased
 
 #newevent
 #rarity 5
-#req_nation 47
+#req_fornation 47
 #req_capital 0
 #req_temple 1
 #req_swamp 1
@@ -1679,7 +1679,7 @@ and their blessed status by the Moon has granted them night vision and increased
 
 #newevent
 #rarity 5
-#req_nation 47
+#req_fornation 47
 #req_capital 0
 #req_fort 1
 #req_swamp 1
