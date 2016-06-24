@@ -921,6 +921,22 @@ they have been summoned there."
 #nreff 8
 #end 
 
+#newspell
+#name "Attract Vile Things"
+#descr "By use of this blood sacrifice, a servant of Cthulu may entice several Vile Things into service, in hopes of more blood to feast on."
+#school 6
+#researchlevel 1
+#path 0 7
+#pathlevel 0 1
+#damage 757
+#effect 10001
+#fatiguecost 500
+#nreff 1001
+#spec 8388608
+#restricted 84
+#restricted 88
+#restricted 92
+#end
 
 #newspell
 #name "Call Deep Ones"
@@ -933,7 +949,7 @@ they have been summoned there."
 #pathlevel 1 1
 #damage 1686
 #effect 10001
-#fatiguecost 400
+#fatiguecost 500
 #nreff 1002
 #spec 8388608
 #restricted 84

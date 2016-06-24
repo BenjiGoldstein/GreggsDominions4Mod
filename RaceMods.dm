@@ -354,22 +354,6 @@ to her foe, and she is able to call down lightning against the ranks of her enem
 #gcost 0
 #end
 
-#newmonster 3019
-#copystats 963
-#copyspr 963
-#name "Cuthulu Cultist"
-#descr "These reclusive humans use blood sacrifice to attract the notice of denisens of Cthulu.  They consider the loss of sanity a small price to pay
-for the knowledge and power gained."
-#gcost 10010
-#clearmagic
-#magicskill 7 1
-#custommagic 2560 100
-#clearspec
-#holy
-#insane 10
-#clearweapons
-#weapon 256
-#end
 
 #newmonster 3020
 #copyspr 782
@@ -588,6 +572,7 @@ he has gained unnatural long life and the ability to exist beneath the waves, th
 #mr 12
 #pooramphibian
 #maxage 500
+#incunrest 20
 #clearmagic
 #magicskill 7 3
 #magicskill 4 2
@@ -1010,6 +995,16 @@ abilities as well as a magic sword crafted for her by her father. During war, sh
 
 #selectmonster 1528
 #poormagicleader
+#end
+
+#selectmonster 1575
+#descr "These reclusive hybrids use blood sacrifice to attract the notice of the denizens of Cthulu.  They consider the loss of sanity a small price to pay
+for the knowledge and power gained."
+#clearmagic
+#magicskill 8 1
+#magicskill 7 1
+#custommagic 2560 25
+#gcost 10015
 #end
 
 #selectmonster 2102
@@ -1759,7 +1754,8 @@ and their blessed status by the Moon has granted them night vision and increased
 
 #selectnation 88
 #addreccom 2102
-#coastcom1 3019
+#coastcom1 1575
+#coastunit1 972
 #hero1 660
 #hero2 560
 #hero3 3046
