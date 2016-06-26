@@ -85,13 +85,13 @@ well as completely new spells."
 
 #newweapon 724
 #name "Premonition"
-#dmg 1
+#len 0
 #att 0
 #def 0
-#len 0
-#dt_cap
+#dt_aff
+#dmg 2097152
 #armornegating
-#secondaryeffect 255
+#secondaryeffect 440
 #sound 20
 #explspr 10206
 #end
@@ -369,6 +369,7 @@ Mewlips look like a twisted dead tree sporting teeth and claws.  They are often 
 #summon1 3024
 #itemslots 7174
 #poorleader
+#gcost 0
 #end
 
 #newmonster 3033
@@ -1011,7 +1012,7 @@ they have been summoned there."
 #name "Call Ankhegs"
 #descr "The Earth mage entices several Ankhegs to surface from beneath the enemy ranks and cause havoc."
 #school 0
-#researchlevel 4
+#researchlevel 2
 #path 0 3
 #pathlevel 0 2
 #aoe 0
@@ -1098,7 +1099,7 @@ they have been summoned there."
 #pathlevel 0 3
 #damage 3036
 #effect 10050
-#fatiguecost 800
+#fatiguecost 500
 #nreff 1
 #provrange 4
 #spec 8388608

@@ -94,9 +94,8 @@
 #newevent
 #rarity 0
 #req_temple 0
-#req_site 1
 #nation -2
-#msg "The dedicated followers of the Eternal Temple have erected a bloody stone in your honor. [Eternal Temple]"
+#msg "The dedicated followers of the Eternal Temple have erected a bloody stone in your honor."
 #nolog
 #temple 1
 #end
