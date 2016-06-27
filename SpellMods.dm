@@ -180,6 +180,10 @@ well as completely new spells."
 #explspr 10006
 #end
 
+#selectweapon 62
+#ammo 1
+#end
+
 
 
 #selectitem "Staff of Flame Focus"
@@ -390,7 +394,7 @@ creatures during battles to sow havoc in the enemy ranks."
 #prec 11
 #mr 9
 #mor 12
-#weapon 62
+#weapon 224
 #weapon 33
 #weapon 235
 #animal
@@ -487,7 +491,6 @@ and send it to an individual to give them a premonition of their own death.  Thi
 #coldres 100
 #poisonres  100
 #neednoteat
-#flying
 #amphibian
 #stealthy 20
 #assassin
@@ -552,7 +555,7 @@ for human blood is insatiable."
 #trample
 #darkvision 100
 #maxage 1000
-#weapon 271
+#weapon 62
 #weapon 271
 #weapon 271
 #weapon 20
@@ -914,7 +917,7 @@ they have been summoned there."
 #school 1
 #researchlevel 4
 #path 0 6
-#pathlevel 0 3
+#pathlevel 0 2
 #damage 361
 #effect 10037
 #provrange 4
@@ -1012,13 +1015,32 @@ they have been summoned there."
 #name "Call Ankhegs"
 #descr "The Earth mage entices several Ankhegs to surface from beneath the enemy ranks and cause havoc."
 #school 0
-#researchlevel 2
+#researchlevel 4
 #path 0 3
 #pathlevel 0 2
 #aoe 0
 #damage 3033
-#effect 43
+#effect 1
 #fatiguecost 100
+#nreff 1001
+#range 5020
+#prec 0
+#sound 50
+#restricted 17
+#restricted 44
+#end
+
+#newspell
+#name "Ankheg Infestation"
+#descr "The Earth mage sets up a harmonic vibration in the ground which attracts a large number of Ankhegs to 
+the battlefield to feast on the enemies of Agartha."
+#school 0
+#researchlevel 8
+#path 0 3
+#pathlevel 0 4
+#damage 3033
+#effect 43
+#fatiguecost 200
 #nreff 1003
 #range 0
 #prec 0

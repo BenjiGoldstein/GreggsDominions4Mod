@@ -168,7 +168,7 @@
 #end
 
 #newsite
-#name "Distruting Throne"
+#name "Distrusting Throne"
 #path 8
 #level 0
 #rarity 11

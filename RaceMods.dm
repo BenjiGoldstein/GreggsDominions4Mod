@@ -578,7 +578,7 @@ he has gained unnatural long life and the ability to exist beneath the waves, th
 #magicskill 4 2
 #magicskill 2 1
 #magicskill 6 1
-#insane 20
+#insane 30
 #domsummon2 962
 #weapon 256
 #gcost 0
