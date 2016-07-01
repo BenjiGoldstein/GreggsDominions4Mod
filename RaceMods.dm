@@ -266,7 +266,7 @@
 #newarmor 253
 #name "Fay Armor"
 #type 5
-#prot 6
+#prot 7
 #def 0
 #enc 0
 #rcost 2
@@ -1271,6 +1271,10 @@ Druids are present at every major religious ceremony in the realm.  Druidic cand
 #incunrest -10
 #end
 
+#selectmonster 1223
+#secondtmpshape 1910
+#end
+
 
 #selectmonster 1225
 #nobadevents 5
@@ -1492,14 +1496,6 @@ sacred and may be blessed.  Any daring to kill a Sun Warrior will feel the wrath
 
 #selectmonster 936
 #patrolbonus 5
-#end
-
-#selectmonster 1361
-#secondtmpshape "Shade"
-#clearmagic
-#magicskill 6 1
-#custommagic 30720 100
-#gcost 10010
 #end
 
 #selectmonster 1362
