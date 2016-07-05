@@ -320,7 +320,7 @@ said to bring good luck and to drive away evil spirits."
 #name "Bog Wisp"
 #descr "These elusive aerial beings often are found around swamps and battlefields feeding on the waning life force of the dying. Although they can be
 hit by normal weapons and are fairly weak, their ability to almost vanish makes them difficult targets to hit unless they are actively feeding."
-#copyspr 562
+#spr1 "images/Wisp_1.tga"
 #ap 8
 #mapmove 1
 #hp 8
@@ -378,10 +378,10 @@ Mewlips look like a twisted dead tree sporting teeth and claws.  They are often 
 
 #newmonster 3033
 #name "Ankheg"
+#spr1 "images/Ankheg_1.tga"
 #descr "The Ankheg is a strange subterranean creature that likes to wait in ambush beneath the ground until it senses the vibration of prey on the 
 surface.  It then erupts out of the ground and seizes it's victim while spraying them with potent digestive juices.  Earth mages sometimes summon these
 creatures during battles to sow havoc in the enemy ranks."
-#copyspr 1686
 #ap 12
 #mapmove 0
 #hp 24
@@ -439,8 +439,8 @@ creatures during battles to sow havoc in the enemy ranks."
 #end
 
 #newmonster 3035
-#copyspr 571
 #name "Invisible Stalker"
+#spr1 "images/Invisible_Stalker_1.tga"
 #descr "This feared denizen of the Elemental Plane of Air is summoned to this plane to perform assassinations which it carries out by
 stealing the breath of its victims.  It's invisible nature makes it quite hard to hit."
 #ap 20
@@ -659,9 +659,10 @@ battle on Mictlan's behalf."
 
 #newmonster 3051
 #name "Stirge"
+#spr1 "images/Stirge_1.tga"
+#spr1 "images/Stirge_2.tga"
 #descr "These despicable flying predators are well known for their appetite for blood and their ability to spread disease. Once they sense blood, they go into a 
 feeding frenzy and generally attack until killed. They track their prey by heat and so can see in the dark."
-#copyspr 239
 #ap 8
 #mapmove 3
 #hp 6
@@ -687,12 +688,13 @@ feeding frenzy and generally attack until killed. They track their prey by heat 
 
 #newmonster 3059
 #copystats 489
-#copyspr 489
-#name "Fallen Palladin"
-#descr " Fallen Palladins are palladins who have been seduced by the infernal realms into betraying their vows. In recognition
+#name "Fallen Paladin"
+#spr1 "images/Fallen_Paladin_1.tga"
+#spr2 "images/Fallen_Paladin_2.tga"
+#descr " Fallen Paladins are paladins who have been seduced by the infernal realms into betraying their vows. In recognition
 of their military prowess and in reward for their defection, they are given command of lesser demon and devil armies."
 #hp 22
-att 13
+#att 13
 #leadership 80
 #goodundeadleader
 #end

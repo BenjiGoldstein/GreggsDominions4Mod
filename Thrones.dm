@@ -4,7 +4,26 @@
 #version 1.10
 #domversion 4.22
 
+--Change the throne of night to provide 100% darkvision, to change it from other thrones
+
+#selectsite 780
+#blessdarkvis 100
+#end
+
 --These are level 1 thrones
+
+#newsite
+#name "The Throne of Waterfalls"
+#path 8
+#level 0
+#rarity 11
+#loc 16639
+#decscale 4
+#claim
+#dominion 1
+#gems 2 1
+#gems 1 1
+#end
 
 #newsite
 #name "The Throne of Greed"
@@ -15,7 +34,7 @@
 #incscale 1
 #claim
 #dominion 1
-#gold 250
+#gold 200
 #end
 
 #newsite
@@ -110,13 +129,13 @@
 #level 0
 #rarity 11
 #loc 16639
+#summon 313
+#summon 313
 #wild
 #gems 5 1
 #claim
 #dominion 1
 #gems 6 1
-#summon 313
-#summon 313
 #end
 
 #newsite
@@ -129,6 +148,17 @@
 #dominion 1
 #gems 4 1
 #decscale 5
+#end
+
+
+#newsite
+#name "The Throne of Seasons"
+#path 8
+#level 0
+#rarity 11
+#loc 16639
+#claim
+#dominion 1
 #end
 
 #newsite
@@ -416,4 +446,45 @@
 #nation -2
 #msg "You have claimed The Throne of the Champion, he arrives to assist you. [The Throne of the Champion]"
 #com 600
+#end
+
+--Throne of seasons events
+#newevent
+#rarity 5
+#req_site 1
+#req_claimedthrone 1
+#req_season 0
+#nation -2
+#msg "In spring the Throne of Seasons has produced air gems. [The Throne of Seasons]"
+#1d3vis 1
+#end
+
+#newevent
+#rarity 5
+#req_site 1
+#req_claimedthrone 1
+#req_season 1
+#nation -2
+#msg "In summer the Throne of Seasons has produced fire gems. [The Throne of Seasons]"
+#1d3vis 0
+#end
+
+#newevent
+#rarity 5
+#req_site 1
+#req_claimedthrone 1
+#req_season 2
+#nation -2
+#msg "In fall the Throne of Seasons has produced earth gems. [The Throne of Seasons]"
+#1d3vis 3
+#end
+
+#newevent
+#rarity 5
+#req_site 1
+#req_claimedthrone 1
+#req_season 4
+#nation -2
+#msg "In winter the Throne of Seasons has produced water gems. [The Throne of Seasons]"
+#1d3vis 2
 #end

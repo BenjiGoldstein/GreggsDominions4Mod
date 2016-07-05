@@ -1273,6 +1273,7 @@ Druids are present at every major religious ceremony in the realm.  Druidic cand
 
 #selectmonster 1223
 #secondtmpshape 1910
+#batstartsum2 1807
 #end
 
 
@@ -1392,7 +1393,31 @@ Castles often retain Seeker so that celestial aid may be summoned during seiges.
 #xpshape 35
 #end
 
-
+#newmonster 3500
+#copyspr 2442
+#name "Teotle of Poison"
+#descr "The Teotle is a giant of divine heritate. He was once in changer of swamps and poison. Unlike other Teotles he wasn't banished by relegated to a single tree in the great swamp."
+#gcost 10000
+#pathcost 60
+#startdom 3
+#hp 80
+#size 6
+#prot 5
+#mr 18
+#mor 30
+#str 22
+#att 13
+#def 12
+#prec 12
+#enc 2
+#mapmove 3
+#ap 16
+#weapon 92
+#weapon 462
+#poisonres 25
+#magicskill 2 1
+#magicskill 6 2
+#end
 
 #selectmonster 722
 #name "Beetle Warrior"
@@ -1516,7 +1541,6 @@ and their blessed status by the Moon has granted them night vision and increased
 #end
 
 
-
 -- "Tir Na Og mods - The main addition at this point is to add Unicorn Riders as light cavalry.  They can only be
 --recruited at the capital and must have magical leadership to use. I have also added a Fir Bolg swordsmen regular unit and
 --juggled the attack and defense values of the Fir Bolg warriors to add some strategy to unit choice."
@@ -1593,7 +1617,18 @@ and their blessed status by the Moon has granted them night vision and increased
 #beastmaster 1
 #end
 
-
+--Therados Mods
+#selectsite 182
+#clear
+#homecom 2833
+#homecom 2834
+#homecom 2836
+#homemon 2839
+#gems 1 1
+#gems 2 1
+#gems 3 2
+#gems 5 2
+#end
 
 #selectsite "Tower of Avalon"
 #clear
@@ -1715,6 +1750,7 @@ and their blessed status by the Moon has granted them night vision and increased
 #selectnation 12
 #addrecunit 726
 #templegems 7
+#addgod 3500
 #hero1 936
 #hero2 3049
 #hero3 933
@@ -1735,6 +1771,10 @@ and their blessed status by the Moon has granted them night vision and increased
 #hero3 2761
 #hero4 2757
 #hero5 2758
+#end
+
+#selectnation 34
+#addgod 1231
 #end
 
 #selectnation 37
